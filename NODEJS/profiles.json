@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Amjad",
+    "contact": "amjad@example.com",
+    "targeted_keywords": [
+      "JavaScript",
+      "Node.js"
+    ],
+    "certification": "AWS Certified Developer",
+    "title": "Software Engineer",
+    "education": "BSc in Computer Science"
+  }
+]
