@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import ProjectsTable from './components/ProjectTable'
 import MonthlySalesCard from './components/MonthlySalesCard'
+import FooterContainer from './components/FooterContainer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +16,7 @@ function App() {
     </h1>
     <ProjectsTable/>
     <MonthlySalesCard />
+    <FooterContainer/>
     </>
   )
 }
