@@ -5,6 +5,7 @@ import './App.css'
 import ProjectsTable from './components/ProjectTable'
 import MonthlySalesCard from './components/MonthlySalesCard'
 import FooterContainer from './components/FooterContainer'
+import Calendar from 'react-calendar'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
     </h1>
     <ProjectsTable/>
     <MonthlySalesCard />
+    <Calendar />
     <FooterContainer/>
     </>
   )
