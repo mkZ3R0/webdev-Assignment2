@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import ProjectsTable from './components/ProjectTable'
+import MonthlySalesCard from './components/MonthlySalesCard'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +14,7 @@ function App() {
       Hello world!
     </h1>
     <ProjectsTable/>
+    <MonthlySalesCard />
     </>
   )
 }
