@@ -9,5 +9,17 @@
     "certification": "AWS Certified Developer",
     "title": "Software Engineer",
     "education": "BSc in Computer Science"
+  },
+  {
+    "name": "John Doe",
+    "title": "Software Engineer",
+    "targeted_keywords": [
+      "JavaScript",
+      "Node.js",
+      "Express"
+    ],
+    "education": "B.Sc. in Computer Science",
+    "certification": "Certified JavaScript Developer",
+    "contact": "john.doe@example.com"
   }
 ]
