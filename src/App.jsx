@@ -12,6 +12,7 @@ import PieChart from './components/PieChart'
 import BarChart from './components/BarChart'
 import Map from './components/Map'
 import ContactFormContainer from './components/ContactFormContainer'
+import StatsCard from './components/StatsCard'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -31,6 +32,7 @@ function App() {
       <CardContainer />
       <Map />
       <ContactFormContainer />
+      <StatsCard />
     </>
   )
 }
