@@ -1,6 +1,3 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import ProjectsTable from './components/ProjectTable'
 import MonthlySalesCard from './components/MonthlySalesCard'
@@ -15,14 +12,13 @@ import ContactFormContainer from './components/ContactFormContainer'
 import StatsCard from './components/StatsCard'
 import LineChart from './components/LineChart'
 import MenuContainer from './components/MenuContainer'
+import Sidebar from './components/Sidebar'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <h1 className="text-3xl font-bold underline">
-        Hello world!
+        Muhammad Mukees Khan BSCS22021
       </h1>
       <ProjectsTable />
       <MonthlySalesCard />
@@ -37,6 +33,7 @@ function App() {
       <ContactFormContainer />
       <StatsCard />
       <MenuContainer />
+      <Sidebar />
     </>
   )
 }
