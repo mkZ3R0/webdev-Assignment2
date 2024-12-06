@@ -1,4 +1,5 @@
 import { useState } from "react";
+import avatar from "../assets/avatar.jpg";
 
 const DropdownMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,15 +10,16 @@ const DropdownMenu = () => {
         className="nav-link absolute right-0 dropdown-toggle d-none d-sm-inline-block flex items-center"
         onClick={() => setIsOpen(!isOpen)}
       >
-        {/* <img
-          src="img/avatars/avatar.jpg"
+        <img
+          src={avatar}
           className="avatar img-fluid rounded me-1"
           alt="Charles Hall"
-        /> */}
+          style={{ width: "50px", height: "50px" }}
+        />
         <span className="text-dark">Charles Hall</span>
       </button>
       {isOpen && (
-        <div className="dropdown-menu absolute right-0 mt-2 w-48 bg-white shadow-lg rounded-lg py-2 z-10">
+        <div className="dropdown-menu absolute right-0 mt-16 w-48 bg-white shadow-lg rounded-lg py-2 z-10">
           <a
             className="dropdown-item flex items-center px-4 py-2 text-gray-700 hover:bg-gray-100"
             href="pages-profile.html"
