@@ -14,6 +14,7 @@ import Map from './components/Map'
 import ContactFormContainer from './components/ContactFormContainer'
 import StatsCard from './components/StatsCard'
 import LineChart from './components/LineChart'
+import MenuContainer from './components/MenuContainer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -35,6 +36,7 @@ function App() {
       <Map />
       <ContactFormContainer />
       <StatsCard />
+      <MenuContainer />
     </>
   )
 }
