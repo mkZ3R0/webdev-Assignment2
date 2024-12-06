@@ -7,20 +7,22 @@ import MonthlySalesCard from './components/MonthlySalesCard'
 import FooterContainer from './components/FooterContainer'
 import Calendar from 'react-calendar'
 import DropdownMenu from './components/DropdownMenu'
+import CardContainer from './components/CardContainer'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-    <ProjectsTable/>
-    <MonthlySalesCard />
-    <Calendar />
-    <FooterContainer/>
-    <DropdownMenu />
+      <h1 className="text-3xl font-bold underline">
+        Hello world!
+      </h1>
+      <ProjectsTable />
+      <MonthlySalesCard />
+      <Calendar />
+      <FooterContainer />
+      <DropdownMenu />
+      <CardContainer />
     </>
   )
 }
