@@ -10,6 +10,7 @@ import DropdownMenu from './components/DropdownMenu'
 import CardContainer from './components/CardContainer'
 import PieChart from './components/PieChart'
 import BarChart from './components/BarChart'
+import Map from './components/Map'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -27,6 +28,7 @@ function App() {
       <FooterContainer />
       <DropdownMenu />
       <CardContainer />
+      <Map />
     </>
   )
 }
