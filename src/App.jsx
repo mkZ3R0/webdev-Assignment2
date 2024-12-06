@@ -6,6 +6,7 @@ import ProjectsTable from './components/ProjectTable'
 import MonthlySalesCard from './components/MonthlySalesCard'
 import FooterContainer from './components/FooterContainer'
 import Calendar from 'react-calendar'
+import DropdownMenu from './components/DropdownMenu'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +20,7 @@ function App() {
     <MonthlySalesCard />
     <Calendar />
     <FooterContainer/>
+    <DropdownMenu />
     </>
   )
 }
