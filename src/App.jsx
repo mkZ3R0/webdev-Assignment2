@@ -13,6 +13,7 @@ import BarChart from './components/BarChart'
 import Map from './components/Map'
 import ContactFormContainer from './components/ContactFormContainer'
 import StatsCard from './components/StatsCard'
+import LineChart from './components/LineChart'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -25,10 +26,11 @@ function App() {
       <ProjectsTable />
       <MonthlySalesCard />
       <Calendar />
+      <DropdownMenu />
       <PieChart />
       <BarChart />
+      <LineChart />
       <FooterContainer />
-      <DropdownMenu />
       <CardContainer />
       <Map />
       <ContactFormContainer />
